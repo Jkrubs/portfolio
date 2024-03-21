@@ -1,0 +1,89 @@
+.hero{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    background: linear-gradient(rgba(0,7,58,0.2),rgba(0,7,58,0.2)),url(../images/backgroun-p.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.intro{
+    margin-left: 100px;
+    max-width: 600px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.buttons button{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border:1px solid #efefef;
+    font-weight: bold;
+    color: #efefef;
+    cursor: pointer;
+}
+.port{
+    background:transparent;
+}
+
+.buttons .active-btn {
+    color: blueviolet;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.buttons .active-btn a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.buttons .active-btn i{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: blueviolet;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h4{
+    letter-spacing: 5px;
+    color: blueviolet;
+}
+
+h1{
+    color: #f0f8ff;
+    font-size: 30px;
+}
+
+@media(max-width:600px){
+    .intro{
+        margin-left: 25px;
+    }
+    h1{
+        font-size: 25px;
+    }
+}

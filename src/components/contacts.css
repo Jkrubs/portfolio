@@ -1,0 +1,36 @@
+.contacts{
+    width: 80%;
+    margin: auto 10%;
+    height: 50vh;
+    background: #efefef;
+    margin-top: 20px;
+    background:linear-gradient(180deg, #fde1ff 0%,#e1ffea22 60%);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn button{
+    width: 100px;
+    height: 30px;
+    outline: none;
+    border: 0;
+    border-radius: 10px;
+    background: palevioletred;
+    font-weight: bold;
+    color: #f0f8ff;
+
+}
+
+.btn button a{
+    text-decoration: none;
+    color: inherit;
+}
