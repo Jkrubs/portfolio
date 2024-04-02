@@ -1,25 +1,30 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a4ac94d2.css",
-    "main.js": "/portfolio/static/js/main.880cf7d4.js",
+    "main.css": "/portfolio/static/css/main.241a02d2.css",
+    "main.js": "/portfolio/static/js/main.dc06e644.js",
     "static/media/backgroun-p.jpg": "/portfolio/static/media/backgroun-p.685296bfafdb21fc8cb9.jpg",
     "static/media/edusity.png": "/portfolio/static/media/edusity.f605957bd678f62563d6.png",
     "static/media/shopper.png": "/portfolio/static/media/shopper.2e2b0ff1be6e30ba12d3.png",
     "static/media/facebook.png": "/portfolio/static/media/facebook.f74b7c8f3a6d0ef235fa.png",
     "static/media/kai.png": "/portfolio/static/media/kai.c04e9a7fabba4fa04c1c.png",
     "static/media/about.webp": "/portfolio/static/media/about.62b47e7f183d4b4e9feb.webp",
+    "static/media/antony.png": "/portfolio/static/media/antony.dd518f13ae25fafcc45f.png",
     "static/media/py-icon.svg": "/portfolio/static/media/py-icon.af4b6d45f652824e97cdcd305b065579.svg",
     "static/media/react-js-icon.svg": "/portfolio/static/media/react-js-icon.4ee8d0003d0f7f9ccea03ac4aa13fb99.svg",
     "static/media/css-icon.svg": "/portfolio/static/media/css-icon.dbd31fe14ec796185689723739441965.svg",
+    "static/media/design.svg": "/portfolio/static/media/design.7884c4ca69d360b716186fd4ce15639d.svg",
     "index.html": "/portfolio/index.html",
+    "static/media/injiniya.svg": "/portfolio/static/media/injiniya.149a2bfa257b63b17eb5dc63004d6dfb.svg",
     "static/media/js-icon.svg": "/portfolio/static/media/js-icon.43e744a279a2adb2d549e76402f43593.svg",
     "static/media/html-icon.svg": "/portfolio/static/media/html-icon.115310285b7fd7194c7afea2c04ec0f7.svg",
+    "static/media/upwork.svg": "/portfolio/static/media/upwork.4ab71fdc0f213214de2415e5412b91c9.svg",
     "static/media/nextjs-icon.svg": "/portfolio/static/media/nextjs-icon.eb4c971160919897909eae8f7bb49964.svg",
-    "main.a4ac94d2.css.map": "/portfolio/static/css/main.a4ac94d2.css.map",
-    "main.880cf7d4.js.map": "/portfolio/static/js/main.880cf7d4.js.map"
+    "static/media/fiverr.svg": "/portfolio/static/media/fiverr.fe4d7eb113952214fb8104580f0773ca.svg",
+    "main.241a02d2.css.map": "/portfolio/static/css/main.241a02d2.css.map",
+    "main.dc06e644.js.map": "/portfolio/static/js/main.dc06e644.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4ac94d2.css",
-    "static/js/main.880cf7d4.js"
+    "static/css/main.241a02d2.css",
+    "static/js/main.dc06e644.js"
   ]
 }
