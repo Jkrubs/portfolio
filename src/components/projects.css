@@ -1,0 +1,77 @@
+.portfolio{
+    position: relative;
+    background-color: #212121;
+}
+
+.progress{
+    position: sticky;
+    top: 0;
+    left: 0;
+    text-align: center;
+    color:orange;
+    font-size: 25px;
+    padding-top: 50px;
+}
+
+.progress-bar{
+    background: #f0f8ff;
+    height: 10px;
+    border-radius: 50px 50px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+.wrapper{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    gap: 20px;
+}
+.imageContainer{
+    flex: 1;
+    
+}
+
+.imageContainer img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.text-container{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.text-container h2{
+    color: #f0f8ff;
+}
+.text-container p{
+    color: antiquewhite;
+}
+
+.text-container button{
+    background: orange;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+}
+.text-container a{
+    text-decoration: none;
+    color: inherit;
+}
+
+@media(max-width:600px){
+    .wrapper{
+        flex-direction: column;
+        gap: 20vh;
+    }
+    
+}

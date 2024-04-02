@@ -1,9 +1,12 @@
+
 import { About } from "./components/about";
-import { Header } from "./components/header";
-import Hero from "./components/hero";
-import { Featured } from "./components/featured";
 import { Contacts } from "./components/contacts";
 import { Footer } from "./components/footer";
+import { Header } from "./components/header";
+import Hero from "./components/hero";
+import { Hire } from "./components/hire";
+import { Projects } from "./components/projects";
+import { Services } from "./components/services";
 
 
 
@@ -12,10 +15,13 @@ function App() {
     <div className="App">
       <Header/>
       <Hero/>
+      <Services/>
       <About/>
-      <Featured/>
+      <Projects/>
       <Contacts/>
+      <Hire/>
       <Footer/>
+      
     </div>
   );
 }

@@ -1,36 +1,157 @@
-.contacts{
-    width: 80%;
-    margin: auto 10%;
-    height: 50vh;
-    background: #efefef;
-    margin-top: 20px;
-    background:linear-gradient(180deg, #fde1ff 0%,#e1ffea22 60%);
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.btn{
+.message{
+    width: 100%;
+    margin: 20px 0;
+    height: 100vh;
     display: flex;
     align-items: center;
-    gap: 20px;
+    justify-content: space-around;
+    background-color: #fff;
 }
 
-.btn button{
+.declare{
+    max-width: 500px;
+    text-align: start;
+    margin-left: 100px;
+    position: relative;
+    bottom: 110px;
+    
+}
+.declare a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+
+.declare h5{
+    font-size: 13px;
+    color:#212121;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    line-height:1rem ;
+
+}
+
+.message input::-webkit-inner-spin-button{
+    display: none;
+}
+
+.form span{
+    display: block;
+    max-width: 20px 0;
+}
+
+.social-icons{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.social-icons i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    color: navy;
+   
+}
+
+
+
+.declare p{
+    font-size: 11px;
+    font-weight: bold;
+    color:blueviolet;
+}
+
+.declare h3{
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.coordinate{
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
+    
+
+}
+
+.coordinate i{
+    margin-right: 7px;
+    font-size: 13px;
+    color: purple;
+}
+
+.form{
+    width: 500px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.form input , textarea{
+    display: block;
+    width: 100%;
+    background: #ebecfe;
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    resize: none;
+}
+label{
+    font-size: 15px;
+}
+.form button{
     width: 100px;
     height: 30px;
-    outline: none;
     border: 0;
-    border-radius: 10px;
-    background: palevioletred;
+    outline: none;
+    border-radius: 15px;
+    background-color:blue;
+    color: #fff;
     font-weight: bold;
-    color: #f0f8ff;
-
+}
+.head{
+    display: flex;
+    align-items: center;
+}
+.head i{
+    font-size: 20px;
+    margin-left: 20px;
 }
 
-.btn button a{
-    text-decoration: none;
-    color: inherit;
+.form span{
+    font-size: 13px;
+    color: green;
+    font-weight: bold;
+}
+
+.form h2{
+    margin-bottom: 20px;
+    color: blueviolet;
+}
+
+@media(max-width:600px){
+    .message{
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .declare , .form{
+        width: 80%;
+        margin: 0px 10%;
+    }
+    .declare{
+        bottom: 0;
+    }
+    .declare h5{
+        margin:15px 0 ;
+    }
 }
