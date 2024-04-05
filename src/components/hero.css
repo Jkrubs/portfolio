@@ -83,10 +83,31 @@ h1{
 }
 
 @media(max-width:600px){
-    .intro{
-        margin-left: 25px;
+    .hero{
+        align-items: center;
     }
+    .intro{
+        width: 80%;
+        margin: auto;
+        align-items: center;
+        text-align: center;
+    }
+    .buttons{
+        width: 80%;
+        margin: auto;
+        flex-direction: column;
+
+        
+    }
+
+    .buttons button{
+        width: 100%;
+    }
+    .buttons .active-btn{
+        width: 100%;
+    }
+
     h1{
-        font-size: 25px;
+        font-size: 15px;
     }
 }

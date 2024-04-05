@@ -7,15 +7,24 @@ export default function Hero() {
     const textVariants={
         initial:{
             opacity:0,
-            x:-500,
+            x:-100,
         },
         animate:{
             opacity:1, 
             x:0,
             transition:{
-                duration:2,
+                duration:1,
                 staggerChildren:1
             }
+        },
+        scrollbtn:{
+            opacity:0,
+            y:10,
+            transition:{
+                duration:2,
+                repeat:Infinity,
+            }
+
         }
     }
 
@@ -30,6 +39,7 @@ export default function Hero() {
             duration:2000
         }
     }
+ 
 
    
 
@@ -41,6 +51,9 @@ export default function Hero() {
         <motion.div className="buttons"variants={textVariants} initial="initial" animate="animate">
             <motion.button className='port'><Link to="services" smooth={true} offset={-90}>See Portfolio</Link></motion.button>
             <motion.button className='active-btn'><a href="https://www.upwork.com/freelancers/~01ca0327184fbd92d2">Let's Connect<motion.i variants={iconVariant} initial="initial"  whileHover="animate" class="fa-solid fa-handshake"></motion.i></a></motion.button>
+        </motion.div>
+        <motion.div className="scroll-btn" variants={textVariants} animate="scrollbtn">
+
         </motion.div>
  
         </motion.div>

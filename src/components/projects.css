@@ -73,5 +73,8 @@
         flex-direction: column;
         gap: 20vh;
     }
+    .progress{
+        padding-top: 25px;
+    }
     
 }
