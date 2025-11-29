@@ -1,7 +1,7 @@
 import carhire from './carhire.png'
 import crypto from './cryptoplace.png'
 import mayphil from './maypil.png'
-
+import greenwheels from './Greenwheels-africa-11-29-2025_11_59_PM.png'
 
 
 
@@ -31,4 +31,12 @@ export const Projects=[
         image:crypto,
         link:'https://cryptoplace-rust.vercel.app/'
     },
+    {
+        id:"04",
+        title:'Web Application Project',
+        description:"An admin dashboard panel for an electric vehicle fleet management. The admin is able to monitor and track their fleet in real time",
+        stack:[{name:"React Js"}, {name:"CSS3"},{name:"Node Js"}, {name:"Express Js"},{name:"Redux"},{name:"React Charts"},{name:"MongoDb"}],
+        image:greenwheels,
+        link:'https://greenwheels-fleet.vercel.app/'
+    }
 ]
