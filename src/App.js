@@ -1,18 +1,27 @@
 
-import { Route, Routes } from "react-router";
+import { Route, Routes, useLocation } from "react-router-dom";
 import { Home } from "./Components/Home/Home";
-import {Work} from './Components/Work/Work'
 import { Resume } from "./Components/Resume/Resume";
+import { Work } from "./Components/Work/Work";
+
+
+import { AnimatePresence } from "framer-motion";
+import Transition from "./Components/Transition/Transition";
+
 
 function App() {
+  const location = useLocation()
   return (
     <div className="App">
-      <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/work" element={<Work/>}/>
-        <Route path="/resume" element={<Resume/>}/>
-      </Routes>
-  
+
+      <AnimatePresence mode="wait">
+        <Routes location={location} key={location.pathname}>
+          <Route path="/" element={<><Transition /><Home /></>} />
+          <Route path="/work" element={<><Transition /><Work /></>} />
+          <Route path="/resume" element={<><Transition /><Resume /></>} />
+        </Routes>
+      </AnimatePresence>
+
     </div>
   );
 }
