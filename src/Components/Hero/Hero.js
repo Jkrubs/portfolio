@@ -15,11 +15,11 @@ export const Hero = () => {
           <h1>Hello, I'm <br /><span>Antony Karanja</span></h1>
           <p>I excel at crafting elegant digital solutions that solves problems and makes life easier. I am proficient in various programming languages and technologies.</p>
           <div className="hero-buttons">
-            <button>Hire Me</button>
+            <a href="tel:+254740105052"><button>Hire Me</button></a>
             <div className="socials">
-              <img src={linkedin} alt="" />
-              <img src={github} alt="" />
-              <img src={twitter} alt="" />
+              <a href="https://www.linkedin.com/in/devjaja/"><img src={linkedin} alt="" /></a>
+              <a href="https://github.com/Jkrubs"><img src={github} alt="" /></a>
+              <a href="https://github.com/Jkrubs"><img src={twitter} alt="" /></a>
             </div>
           </div>
         </div>
